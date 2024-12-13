@@ -1,0 +1,38 @@
+/* Style for the container div */
+.header-container {
+    background-color: #1a1a2e; /* Dark background for contrast */
+    padding: 20px;            /* Adds spacing inside the container */
+    display: flex;            /* Enables flexbox layout */
+    justify-content: space-between; /* Spaces out the elements inside the container */
+    align-items: center;      /* Vertically aligns items in the center */
+    color: white;             /* White text for readability */
+  }
+  
+  /* Style for the heading */
+  .header-container h1 {
+    font-size: 24px;          /* Sets the size of the heading */
+    font-weight: bold;        /* Makes the heading text bold */
+    margin: 0;                /* Removes default margin around the heading */
+  }
+  
+  /* Style for the list container */
+  .header-container li {
+    display: flex;            /* Makes the list items appear in a row */
+    list-style: none;         /* Removes bullet points from the list */
+    gap: 20px;                /* Adds spacing between list items */
+    margin: 0;                /* Removes default margin */
+    padding: 0;               /* Removes default padding */
+  }
+  
+  /* Style for individual list items */
+  .header-container li ul {
+    font-size: 18px;          /* Sets the font size for the list items */
+    cursor: pointer;          /* Changes cursor to pointer on hover */
+    transition: color 0.3s;   /* Smooth transition effect for color change */
+  }
+  
+  /* Hover effect for list items */
+  .header-container li ul:hover {
+    color: #00adb5;           /* Changes text color on hover for a dynamic look */
+  }
+  

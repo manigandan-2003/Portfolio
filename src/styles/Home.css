@@ -1,0 +1,81 @@
+/* Style for the container */
+.home-container {
+    display: flex;              /* Aligns items in a row */
+    justify-content: space-between; /* Spaces content evenly */
+    align-items: center;        /* Centers items vertically */
+    background-color: #1a1a2e; /* Dark background for modern aesthetics */
+    padding: 50px;             /* Adds spacing around the content */
+    color: white;              /* White text for readability */
+    min-height: 100vh;         /* Ensures full-screen height */
+    flex-wrap: wrap;           /* Allows content to wrap on smaller screens */
+  }
+  
+  /* Content styling */
+  .home-content {
+    flex: 1;                   /* Takes up available space */
+    max-width: 600px;          /* Limits the width of the text area */
+    padding: 20px;             /* Adds spacing inside the text area */
+  }
+  
+  .home-content h1 {
+    font-size: 36px;           /* Prominent heading size */
+    margin-bottom: 20px;       /* Space below the heading */
+  }
+  
+  .home-content h1 span {
+    color: #00adb5;            /* Highlight color for name */
+  }
+  
+  /* Button styling */
+  .home-button {
+    background-color: #00adb5; /* Attractive button color */
+    border: none;             /* Removes default border */
+    padding: 10px 20px;       /* Adds spacing inside the button */
+    border-radius: 20px;       /* Smooth edges */
+    cursor: pointer;          /* Pointer cursor for clickable feel */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .home-button:hover {
+    background-color: #008b9d; /* Darker hover effect */
+    transform: scale(1.1);    /* Slightly enlarges the button */
+  }
+  
+  .home-button a {
+    text-decoration: none;    /* Removes underline from link */
+    color: white;             /* White text */
+    font-weight: bold;        /* Bold text for emphasis */
+  }
+  
+  /* Image styling */
+  .image {
+    flex: 1;                  /* Takes up remaining space */
+    display: flex;            /* Centers the image */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    border-radius: 50%;       /* Circular image */
+    max-width: 300px;         /* Sets maximum width */
+    height: auto;             /* Maintains aspect ratio */
+    border: 5px solid #00adb5; /* Stylish border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds shadow for depth */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column; /* Stacks content vertically */
+      text-align: center;     /* Centers text for smaller screens */
+    }
+  
+    .home-content, .image {
+      max-width: 100%;       /* Full width on small screens */
+      margin-bottom: 20px;   /* Adds space between sections */
+    }
+  
+    .home-content h1 {
+      font-size: 28px;       /* Adjusts heading size for smaller screens */
+    }
+  }
