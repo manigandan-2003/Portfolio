@@ -1,4 +1,7 @@
 .main-container {
     background-color: #1a1a2e;
-    border-radius: 8px;
+}
+
+section {
+    min-height: 100vh;
 }

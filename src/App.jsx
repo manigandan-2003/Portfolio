@@ -1,3 +1,4 @@
+import React from 'react';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
@@ -6,16 +7,23 @@ import Projects from "./components/Projects";
 import "./styles/App.css";
 
 function App() {
-
   return (
     <div className="main-container">
       <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
-  )
+  );
 }
 
 export default App;
