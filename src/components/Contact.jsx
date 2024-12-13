@@ -74,7 +74,7 @@ const Contact = () => {
         transition={{ duration: 0.5, delay: 0.4 }}
         viewport={{ once: false }}
       >
-        <p>&copy; {new Date().getFullYear()} Manigandan N. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Manigandan Nachiappan. All rights reserved.</p>
       </motion.footer>
     </div>
   );
