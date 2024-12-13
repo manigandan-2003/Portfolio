@@ -1,0 +1,123 @@
+.contact-container {
+    color: white;
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00adb5;
+    margin-bottom: 30px;
+  }
+  
+  .contact-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-card {
+    background-color: #2c2c54;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-logo {
+    background-color: #00adb5;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-label {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon {
+    font-size: 30px;
+  }
+  
+  .contact-content {
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .contact-content strong {
+    color: white;
+  }
+  
+  .contact-footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .contact-footer p {
+    margin: 0;
+  }
+  
+  .contact-link {
+    color: #00adb5;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 30px;
+    }
+  
+    .contact-title {
+      font-size: 32px;
+    }
+  
+    .contact-cards-container {
+      flex-direction: column;
+    }
+  
+    .contact-card {
+      width: 80%;
+    }
+  
+    .contact-icon {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .contact-title {
+      font-size: 28px;
+    }
+  
+    .contact-cards-container {
+      flex-direction: column;
+    }
+  
+    .contact-card {
+      width: 100%;
+    }
+  
+    .contact-icon {
+      font-size: 20px;
+    }
+  }  

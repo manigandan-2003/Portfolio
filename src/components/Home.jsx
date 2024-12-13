@@ -13,8 +13,7 @@ const Home = () => {
                 <button className="home-button">
                     <a
                         href="https://github.com/manigandan-2003"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        rel="Github"
                     >
                         Check My Work
                     </a>

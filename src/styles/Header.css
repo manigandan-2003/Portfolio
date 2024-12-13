@@ -1,38 +1,33 @@
-/* Style for the container div */
 .header-container {
-    background-color: #1a1a2e; /* Dark background for contrast */
-    padding: 20px;            /* Adds spacing inside the container */
-    display: flex;            /* Enables flexbox layout */
-    justify-content: space-between; /* Spaces out the elements inside the container */
-    align-items: center;      /* Vertically aligns items in the center */
-    color: white;             /* White text for readability */
+    padding: 20px;           
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    color: white;     
+    border-radius: 8px;
   }
   
-  /* Style for the heading */
   .header-container h1 {
-    font-size: 24px;          /* Sets the size of the heading */
-    font-weight: bold;        /* Makes the heading text bold */
-    margin: 0;                /* Removes default margin around the heading */
+    font-size: 24px;         
+    font-weight: bold;        
+    margin: 0;               
   }
-  
-  /* Style for the list container */
+
   .header-container li {
-    display: flex;            /* Makes the list items appear in a row */
-    list-style: none;         /* Removes bullet points from the list */
-    gap: 20px;                /* Adds spacing between list items */
-    margin: 0;                /* Removes default margin */
-    padding: 0;               /* Removes default padding */
+    display: flex;           
+    list-style: none;       
+    gap: 20px;          
+    margin: 0;         
+    padding: 0;              
   }
-  
-  /* Style for individual list items */
+
   .header-container li ul {
-    font-size: 18px;          /* Sets the font size for the list items */
-    cursor: pointer;          /* Changes cursor to pointer on hover */
-    transition: color 0.3s;   /* Smooth transition effect for color change */
+    font-size: 18px;         
+    cursor: pointer;        
+    transition: color 0.3s;   
   }
-  
-  /* Hover effect for list items */
+
   .header-container li ul:hover {
-    color: #00adb5;           /* Changes text color on hover for a dynamic look */
+    color: #00adb5;       
   }
   

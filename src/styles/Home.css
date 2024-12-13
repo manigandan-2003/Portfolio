@@ -1,81 +1,77 @@
-/* Style for the container */
 .home-container {
-    display: flex;              /* Aligns items in a row */
-    justify-content: space-between; /* Spaces content evenly */
-    align-items: center;        /* Centers items vertically */
-    background-color: #1a1a2e; /* Dark background for modern aesthetics */
-    padding: 50px;             /* Adds spacing around the content */
-    color: white;              /* White text for readability */
-    min-height: 100vh;         /* Ensures full-screen height */
-    flex-wrap: wrap;           /* Allows content to wrap on smaller screens */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;            
+    color: white;              
+    min-height: 100vh;         
+    flex-wrap: wrap;           
+    border-radius: 8px;
   }
-  
-  /* Content styling */
+
   .home-content {
-    flex: 1;                   /* Takes up available space */
-    max-width: 600px;          /* Limits the width of the text area */
-    padding: 20px;             /* Adds spacing inside the text area */
+    flex: 1;                 
+    max-width: 600px;        
+    padding: 20px;           
   }
   
   .home-content h1 {
-    font-size: 36px;           /* Prominent heading size */
-    margin-bottom: 20px;       /* Space below the heading */
+    font-size: 36px;          
+    margin-bottom: 20px;      
   }
   
   .home-content h1 span {
-    color: #00adb5;            /* Highlight color for name */
+    color: #00adb5;           
   }
-  
-  /* Button styling */
+
   .home-button {
-    background-color: #00adb5; /* Attractive button color */
-    border: none;             /* Removes default border */
-    padding: 10px 20px;       /* Adds spacing inside the button */
-    border-radius: 20px;       /* Smooth edges */
-    cursor: pointer;          /* Pointer cursor for clickable feel */
-    transition: transform 0.3s, background-color 0.3s; /* Smooth hover effect */
+    background-color: #00adb5; 
+    border: none;            
+    padding: 10px 20px;      
+    border-radius: 20px;
+    font-size: 18px;      
+    cursor: pointer;          
+    transition: transform 0.3s, background-color 0.3s; 
   }
   
   .home-button:hover {
-    background-color: #008b9d; /* Darker hover effect */
-    transform: scale(1.1);    /* Slightly enlarges the button */
+    background-color: #008b9d;
+    transform: scale(1.1); 
   }
   
   .home-button a {
-    text-decoration: none;    /* Removes underline from link */
-    color: white;             /* White text */
-    font-weight: bold;        /* Bold text for emphasis */
+    text-decoration: none;    
+    color: white;            
+    font-weight: bold;       
   }
-  
-  /* Image styling */
+
   .image {
-    flex: 1;                  /* Takes up remaining space */
-    display: flex;            /* Centers the image */
+    flex: 1;                 
+    display: flex;           
     justify-content: center;
     align-items: center;
   }
   
   .image img {
-    border-radius: 50%;       /* Circular image */
-    max-width: 300px;         /* Sets maximum width */
-    height: auto;             /* Maintains aspect ratio */
-    border: 5px solid #00adb5; /* Stylish border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds shadow for depth */
+    border-radius: 50%;   
+    max-width: 300px;        
+    height: auto;             
+    border: 5px solid #00adb5; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
-  
-  /* Responsive design */
+
   @media (max-width: 768px) {
     .home-container {
-      flex-direction: column; /* Stacks content vertically */
-      text-align: center;     /* Centers text for smaller screens */
+      flex-direction: column; 
+      text-align: center;     
     }
   
     .home-content, .image {
-      max-width: 100%;       /* Full width on small screens */
-      margin-bottom: 20px;   /* Adds space between sections */
+      max-width: 100%;       
+      margin-bottom: 20px;  
     }
   
     .home-content h1 {
-      font-size: 28px;       /* Adjusts heading size for smaller screens */
+      font-size: 28px;       
     }
   }
