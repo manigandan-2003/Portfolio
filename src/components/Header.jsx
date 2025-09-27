@@ -7,7 +7,7 @@ const Header = () => {
   // Handle scroll events and set active section based on viewport
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'contact'];
+      const sections = ['home', 'about', 'experience','projects', 'contact'];
       for (let i = 0; i < sections.length; i++) {
         const section = document.getElementById(sections[i]);
         if (section && window.scrollY >= section.offsetTop - 50 && window.scrollY < section.offsetTop + section.offsetHeight) {
@@ -32,6 +32,7 @@ const Header = () => {
       <ul>
         <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>
         <li><a href="#about" className={activeSection === 'about' ? 'active' : ''}>About</a></li>
+        <li><a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>Experience</a></li>
         <li><a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>Projects</a></li>
         <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>Contact</a></li>
       </ul>

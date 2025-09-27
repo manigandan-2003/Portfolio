@@ -41,14 +41,13 @@ const About = () => {
       >
         <div className="tech-stack">
           <h3>Languages:</h3>
-          <p>Java, Python, JavaScript, HTML5, CSS3</p>
+          <p>Java, Python, JavaScript, TypeScript, HTML, CSS</p>
           <h3>Frameworks & Libraries:</h3>
           <p>
-            React, Redux, TailwindCSS, Node.js, Express.js, JWT, NumPy, Pandas,
-            Matplotlib, Scikit-learn
+            React, Redux, TailwindCSS, Node.js, Express.js, JWT
           </p>
           <h3>Databases:</h3>
-          <p>MySQL, MongoDB</p>
+          <p>MySQL, MongoDB, Postgres</p>
           <h3>Tools & Platforms:</h3>
           <p>Git, GitHub, Postman, Canva, Figma</p>
         </div>
@@ -64,7 +63,7 @@ const About = () => {
           <p>
             <strong>Vellore Institute of Technology (VIT), Amaravati</strong>
           </p>
-          <p>Current CGPA: 8.21</p>
+          <p>Current CGPA: 8.43</p>
           <h2 className="languages-title">Languages Known</h2>
           <p>English, Tamil</p>
         </div>
