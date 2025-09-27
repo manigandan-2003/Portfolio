@@ -84,7 +84,7 @@ const About = () => {
         </button>
         <button className="resume-button">
           <a
-            href="https://drive.google.com/file/d/1aDSorIo_G16JYStexkh2dxaJMEt4pXT1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tuyem35StITby2X02L1hLU_xfv3Y-w4p/view?usp=sharing"
             rel="Resume"
           >
             Resume
