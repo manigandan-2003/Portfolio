@@ -63,7 +63,7 @@ const About = () => {
           <p>
             <strong>Vellore Institute of Technology (VIT), Amaravati</strong>
           </p>
-          <p>Current CGPA: 8.43</p>
+          <p>Current CGPA: 8.44</p>
           <h2 className="languages-title">Languages Known</h2>
           <p>English, Tamil</p>
         </div>
