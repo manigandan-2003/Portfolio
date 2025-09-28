@@ -19,7 +19,7 @@ const Home = () => {
           Hello! I'm <span>Manigandan Nachiappan</span>, a passionate Web Developer.
         </h1>
         <button className="home-button">
-          <a href="https://github.com/manigandan-2003" rel="noopener noreferrer">
+          <a href="https://github.com/manigandan-2003" target="_blank" rel="noopener noreferrer">
             Check My Work
           </a>
         </button>

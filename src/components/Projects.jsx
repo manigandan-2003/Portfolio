@@ -40,7 +40,6 @@ const projects = [
     title: "Smart Helmet for Underground Miners (Group Project)",
     description:
       "Developed a smart helmet solution for enhancing safety in mining operations and used 2 Arduino UNO boards for sensor integration and it is just a prototype. Implemented sensors to detect poisonous gases, measure temperature and humidity, and monitor pressure changes.",
-    link: "https://github.com/your-username/smart-helmet",
     image: smarthelmet,
   }
 ];
@@ -48,7 +47,7 @@ const projects = [
 const Projects = () => {
   return (
     <motion.div
-    id="projects"
+      id="projects"
       className="projects-container"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -60,12 +59,12 @@ const Projects = () => {
           <motion.div
             key={index}
             className="project-card"
-            initial={{ opacity: 0, x: -100 }} // Slide from left
-            whileInView={{ opacity: 1, x: 0 }} // Animate to center when in view
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
-            viewport={{ once: false }} // Trigger animation each time the card comes into view
+            viewport={{ once: false }}
           >
-            <a href={project.link} target="_blank">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={project.image}
                 alt={project.title}

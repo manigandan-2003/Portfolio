@@ -1,18 +1,18 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import { motion } from "framer-motion"; // Import Framer Motion
+import { motion } from "framer-motion";
 import "../styles/Contact.css";
 
 const Contact = () => {
   return (
     <div className="contact-container">
       <motion.h1
-      id="contact"
+        id="contact"
         className="contact-title"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        viewport={{ once: false }} // Allows the animation to trigger multiple times when the element comes into the viewport.
+        viewport={{ once: false }}
       >
         Contact Me
       </motion.h1>

@@ -78,13 +78,14 @@ const About = () => {
         viewport={{ once: false }} // Animation triggers each time the section comes into view
       >
         <button className="about-button">
-          <a href="https://linkedin.com/in/manigandan-n" rel="LinkedIn">
+          <a href="https://linkedin.com/in/manigandan-n" target="_blank" rel="LinkedIn">
             LinkedIn
           </a>
         </button>
         <button className="resume-button">
           <a
             href="https://drive.google.com/file/d/1tuyem35StITby2X02L1hLU_xfv3Y-w4p/view?usp=sharing"
+            target="_blank"
             rel="Resume"
           >
             Resume
