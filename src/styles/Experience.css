@@ -55,6 +55,25 @@
   line-height: 1.6;
 }
 
+.experience-details ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ccc;
+}
+
+.experience-details li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.experience-period {
+  font-size: 15px;
+  color: #aaa;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .experience-container {
     padding: 30px;

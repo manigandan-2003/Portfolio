@@ -19,8 +19,8 @@ const About = () => {
           <p className="about-intro">
           Hi there! I'm <strong>Manigandan Nachiappan</strong>, an aspiring Full
           Stack Web Developer with a specialization in Artificial Intelligence and
-          Machine Learning. I am currently pursuing a B.Tech in Computer Science
-          Engineering at{" "}
+          Machine Learning. I have graduated in 2025 with a B.Tech in Computer Science
+          Engineering from{" "}
           <strong>Vellore Institute of Technology, Amaravati</strong>.
           My journey revolves around leveraging modern technologies to build
           intuitive, scalable, and robust applications that solve real-world
@@ -44,10 +44,10 @@ const About = () => {
           <p>Java, Python, JavaScript, TypeScript, HTML, CSS</p>
           <h3>Frameworks & Libraries:</h3>
           <p>
-            React, Redux, TailwindCSS, Node.js, Express.js, JWT
+            React, Redux, TailwindCSS, Node.js, Express.js, Sequelize, JWT
           </p>
           <h3>Databases:</h3>
-          <p>MySQL, MongoDB, Postgres</p>
+          <p>MySQL, MongoDB, PostgreSQL</p>
           <h3>Tools & Platforms:</h3>
           <p>Git, GitHub, Postman, Canva, Figma</p>
         </div>
@@ -63,7 +63,7 @@ const About = () => {
           <p>
             <strong>Vellore Institute of Technology (VIT), Amaravati</strong>
           </p>
-          <p>Current CGPA: 8.44</p>
+          <p>Graduated: 2025 | CGPA: 8.44</p>
           <h2 className="languages-title">Languages Known</h2>
           <p>English, Tamil</p>
         </div>
